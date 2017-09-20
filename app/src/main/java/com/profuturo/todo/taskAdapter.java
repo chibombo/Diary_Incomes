@@ -14,16 +14,26 @@ import java.util.List;
  * Created by LA501857 on 14/09/2017.
  */
 
-public class taskAdapter extends RecyclerView.Adapter<taskAdapter.JugadoresViewHolder> {
+public class taskAdapter extends RecyclerView.Adapter<taskAdapter.TaskViewHolder> {
+
     private List<Tasks> items;
-    public static class JugadoresViewHolder extends RecyclerView.ViewHolder
+    private OnItemClickListener listener;
+
+    public interface OnItemClickListener
+    {
+        void onItemClick(Tasks item);
+    }
+
+
+
+    public static class TaskViewHolder extends RecyclerView.ViewHolder
     {
         public ImageView imagen;
         public TextView Tarea;
         public TextView Fecha;
         public TextView Descripcion;
 
-        public JugadoresViewHolder(View view)
+        public TaskViewHolder(View view)
         {
             super(view);
             imagen = (ImageView) view.findViewById(R.id.imageZelda);
@@ -32,9 +42,21 @@ public class taskAdapter extends RecyclerView.Adapter<taskAdapter.JugadoresViewH
             Descripcion = (TextView) view.findViewById(R.id.txtViewDescripcion);
 
         }
+        public void bind(final Tasks item, final OnItemClickListener listener)
+        {
+            itemView.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v)
+                {
+                    listener.onItemClick(item);
+                }
+            });
+        }
     }
 
-    public taskAdapter(List<Tasks> items) {
+    public taskAdapter(List<Tasks> items, OnItemClickListener listener)
+    {
+        this.listener = listener;
         this.items = items;
     }
 
@@ -44,19 +66,19 @@ public class taskAdapter extends RecyclerView.Adapter<taskAdapter.JugadoresViewH
     }
 
     @Override
-    public JugadoresViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public TaskViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext())
                 .inflate(R.layout.list_item_view, viewGroup, false);
-        return new JugadoresViewHolder(v);
+        return new TaskViewHolder(v);
     }
 
     @Override
-    public void onBindViewHolder(JugadoresViewHolder viewHolder, int i) {
+    public void onBindViewHolder(TaskViewHolder viewHolder, int i) {
         viewHolder.imagen.setImageResource(R.drawable.zelda);
         viewHolder.Tarea.setText("Tarea:"+items.get(i).getTarea());
         viewHolder.Fecha.setText(items.get(i).getFecha());
         viewHolder.Descripcion.setText("Descripcion:\n"+items.get(i).getDescripcion());
-
+        viewHolder.bind(items.get(i),listener);
     }
 
 }

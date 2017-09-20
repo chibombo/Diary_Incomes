@@ -8,10 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 
 import com.profuturo.todo.Data.DataBaseHelper;
 import com.profuturo.todo.Data.dbTasks;
+import com.profuturo.todo.Model.modTaskView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +23,7 @@ public class toDoView extends AppCompatActivity {
     private RecyclerView.Adapter listaJugadores;
     private RecyclerView.LayoutManager manager;
     private FloatingActionButton addBotton;
-    //public final static String taskId = "id";
+    public final static String taskId = "id";
     public final static String taskName = "task_name";
     public final static String taskDate = "date";
     public final static String taskDescription = "task_description";
@@ -46,6 +48,7 @@ public class toDoView extends AppCompatActivity {
                 item.setTarea(select.getString(select.getColumnIndex(taskName)));
                 item.setFecha(select.getString(select.getColumnIndex(taskDate)));
                 item.setDescripcion(select.getString(select.getColumnIndex(taskDescription)));
+                item.setId(select.getInt(select.getColumnIndex(taskId)));
                 //db.insertTask(item.getTarea(),item.getDescripcion(),item.getFecha());
 
 
@@ -61,8 +64,36 @@ public class toDoView extends AppCompatActivity {
             recyclerview.setHasFixedSize(true);
             manager = new LinearLayoutManager(this);
             recyclerview.setLayoutManager(manager);
-            listaJugadores = new taskAdapter(list);
-            recyclerview.setAdapter(listaJugadores);
+         /*   listaJugadores = new taskAdapter(list, new taskAdapter.OnItemClickListener() {
+                @Override
+                public void onItemClick(Tasks item) {
+                    Intent modTask = new Intent(toDoView.this,modTaskView.class);
+                    modTask.putExtra(taskId,item.getId());
+                    modTask.putExtra(taskName,item.getTarea());
+                    modTask.putExtra(taskDate,item.getFecha());
+                    modTask.putExtra(taskDescription,item.getDescripcion());
+                    startActivityForResult(modTask,1);
+                }
+            });
+            */
+            recyclerview.setAdapter(new taskAdapter(list, new taskAdapter.OnItemClickListener() {
+                @Override
+                public void onItemClick(Tasks item) {
+                    try
+                    {
+                        Intent modTask = new Intent(toDoView.this,modTaskView.class);
+                        modTask.putExtra(taskId,item.getId());
+                        modTask.putExtra(taskName,item.getTarea());
+                        modTask.putExtra(taskDate,item.getFecha());
+                        modTask.putExtra(taskDescription,item.getDescripcion());
+                        startActivityForResult(modTask,1);
+                    }
+                    catch(Exception ex)
+                    {
+                        Log.d("Error",ex.getMessage());
+                    }
+                }
+            }));
         }
     }
     @Override
@@ -91,6 +122,7 @@ public class toDoView extends AppCompatActivity {
                 item.setTarea(select.getString(select.getColumnIndex(taskName)));
                 item.setFecha(select.getString(select.getColumnIndex(taskDate)));
                 item.setDescripcion(select.getString(select.getColumnIndex(taskDescription)));
+                item.setId(select.getInt(select.getColumnIndex(taskId)));
                 //db.insertTask(item.getTarea(),item.getDescripcion(),item.getFecha());
 
 
@@ -99,15 +131,32 @@ public class toDoView extends AppCompatActivity {
                 select.moveToNext();
 
             }
-
-            //item.setId(1);
-
-
             recyclerview.setHasFixedSize(true);
             manager = new LinearLayoutManager(this);
             recyclerview.setLayoutManager(manager);
-            listaJugadores = new taskAdapter(list);
-            recyclerview.setAdapter(listaJugadores);
+         /*   listaJugadores = new taskAdapter(list, new taskAdapter.OnItemClickListener() {
+                @Override
+                public void onItemClick(Tasks item) {
+                    Intent modTask = new Intent(toDoView.this,modTaskView.class);
+                    modTask.putExtra(taskId,item.getId());
+                    modTask.putExtra(taskName,item.getTarea());
+                    modTask.putExtra(taskDate,item.getFecha());
+                    modTask.putExtra(taskDescription,item.getDescripcion());
+                    startActivityForResult(modTask,1);
+                }
+            });
+            */
+            recyclerview.setAdapter(new taskAdapter(list, new taskAdapter.OnItemClickListener() {
+                @Override
+                public void onItemClick(Tasks item) {
+                    Intent modTask = new Intent(toDoView.this,modTaskView.class);
+                    modTask.putExtra(taskId,item.getId());
+                    modTask.putExtra(taskName,item.getTarea());
+                    modTask.putExtra(taskDate,item.getFecha());
+                    modTask.putExtra(taskDescription,item.getDescripcion());
+                    startActivityForResult(modTask,1);
+                }
+            }));
         }
        /* Tasks item = new Tasks();
         item.setId(1);

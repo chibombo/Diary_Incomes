@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".addingTask"></activity>
+        <activity android:name=".Model.modTaskView"></activity>
     </application>
 
 </manifest>

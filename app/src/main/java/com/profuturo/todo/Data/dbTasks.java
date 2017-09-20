@@ -66,4 +66,11 @@ public class dbTasks
         values.put(taskDescription,TaskDescription);
         return database.update(taskTable,values,taskId+"="+String.valueOf(TaskId),null);
     }
+    public int delete(int TaskId)
+    {
+        ContentValues values = new ContentValues();
+        values.put(taskId,TaskId);
+        return database.delete(taskTable,taskId+"="+String.valueOf(TaskId),null);
+
+    }
 }

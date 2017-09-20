@@ -49,12 +49,21 @@ public class dbTasks
             Log.d("Error",ex.getMessage());
             cursor = null;
         }
-
+        database.close();
         return cursor;
     }
     public void deleteAll()
     {
        database.delete(taskTable,null,null);
         //database.rawQuery("drop table toDoBD",null);
+    }
+    public int update(int TaskId, String TaskName, String TaskDescription, String TaskDate)
+    {
+        ContentValues values = new ContentValues();
+        values.put(taskName,TaskName);
+        values.put(taskDate,TaskDate);
+        values.put(taskId,TaskId);
+        values.put(taskDescription,TaskDescription);
+        return database.update(taskTable,values,taskId+"="+String.valueOf(TaskId),null);
     }
 }

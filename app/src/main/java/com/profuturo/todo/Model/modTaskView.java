@@ -32,7 +32,7 @@ public class modTaskView extends AppCompatActivity implements DatePickerDialog.O
     private int month;
     private int year;
     private DateFormat format;
-
+    private int TaskId;
     private final static String taskId = "id";
     private final static String taskName = "task_name";
     private final static String taskDate = "date";
@@ -54,6 +54,7 @@ public class modTaskView extends AppCompatActivity implements DatePickerDialog.O
             TaskName.setText(values.getString(taskName));
             TaskDate.setText(values.getString(taskDate));
             TaskDescription.setText(values.getString(taskDescription));
+            TaskId = values.getInt(taskId);
         }
 
     }
@@ -64,6 +65,7 @@ public class modTaskView extends AppCompatActivity implements DatePickerDialog.O
         outState.putString("taskName", TaskName.getText().toString());
         outState.putString("taskDescription", TaskDescription.getText().toString());
         outState.putString("taskDate", TaskDate.getText().toString());
+
 
         super.onSaveInstanceState(outState);
     }
@@ -83,11 +85,11 @@ public class modTaskView extends AppCompatActivity implements DatePickerDialog.O
         dbTasks db = new dbTasks(this);
         //Cursor select = db.selectTask();
         Tasks item = new Tasks();
-        //item.setId(1);
+        item.setId(TaskId);
         item.setTarea(TaskName.getText().toString());
         item.setFecha(TaskDate.getText().toString());
         item.setDescripcion(TaskDescription.getText().toString());
-        db.insertTask(item.getTarea(),item.getDescripcion(),item.getFecha());
+        db.update(item.getId(),item.getTarea(),item.getDescripcion(),item.getFecha());
         Intent returnIntent = new Intent();
         //returnIntent.putExtra("result",result);
         setResult(RESULT_CANCELED,returnIntent);

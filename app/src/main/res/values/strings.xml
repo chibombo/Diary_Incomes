@@ -7,4 +7,7 @@
     <string name="cambiar_fecha">Cambiar Fecha</string>
     <string name="descripcionFormulario">Descripcion</string>
     <string name="nombre_tarea">Nombre Tarea</string>
+    <string name="descripcionRecycle">Descripcion:</string>
+    <string name="fechaRecycle">Fecha:</string>
+    <string name="tareaRecycle">Tarea:</string>
 </resources>

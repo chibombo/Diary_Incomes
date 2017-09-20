@@ -3,4 +3,8 @@
     <string name="tarea">Tarea</string>
     <string name="descripcion">Descripcion</string>
     <string name="fecha">Fecha</string>
+    <string name="agregar">Agregar</string>
+    <string name="cambiar_fecha">Cambiar Fecha</string>
+    <string name="descripcionFormulario">Descripcion</string>
+    <string name="nombre_tarea">Nombre Tarea</string>
 </resources>

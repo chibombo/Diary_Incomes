@@ -52,7 +52,7 @@ public class toDoView extends AppCompatActivity {
                 db.selectTask();
                 list.add(item);
                 select.moveToNext();
-                item = null;
+
             }
 
             //item.setId(1);
@@ -97,7 +97,7 @@ public class toDoView extends AppCompatActivity {
                 db.selectTask();
                 list.add(item);
                 select.moveToNext();
-                item = null;
+
             }
 
             //item.setId(1);

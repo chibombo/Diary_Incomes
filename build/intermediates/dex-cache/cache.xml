@@ -3,291 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\La501857\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_be01057a2ddbc902c950cc917b82dca76735196c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\f77fc3a23af58afc72b1c9dbf283ba470e6ad0f5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_ddfe4e0cfab9da9f79dada881043833191836f81.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\4c8fb32e1117cf93d6fa9d817bd744a29a7ca54b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55762467278cea3d5b5ef2d1a800ed04aaddbb0b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_ac3d3ca80d195b5be95a6fb3fca6e324749d98c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\da62d6f763fdbe4f0f7eb4e55d29fe49482dc9c7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_48b531e6a6f6a035214c2b078ea838c9e21d7dd8.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\b5ead1c509744dcb90b26309f221283249cf5972\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43be8466c47c7d028636fff86364aee735558d3f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\4c8fb32e1117cf93d6fa9d817bd744a29a7ca54b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_55762467278cea3d5b5ef2d1a800ed04aaddbb0b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\838a4aff6e3d33c193fa5ed63ed8f6553dd22ec6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_678b60c3067a21aca5641f9a3b8a26eed3debb21.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\f77fc3a23af58afc72b1c9dbf283ba470e6ad0f5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ddfe4e0cfab9da9f79dada881043833191836f81\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\da62d6f763fdbe4f0f7eb4e55d29fe49482dc9c7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_48b531e6a6f6a035214c2b078ea838c9e21d7dd8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\838a4aff6e3d33c193fa5ed63ed8f6553dd22ec6\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_678b60c3067a21aca5641f9a3b8a26eed3debb21\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\cf6de060f46016a8aca061436ff31d93b72fd4cd\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_2df067071491e2ec751855055162066088c31804.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\cf6de060f46016a8aca061436ff31d93b72fd4cd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2df067071491e2ec751855055162066088c31804\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\dd281eb98cf79d89bd7ce631fe583eab6dbfece9\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9f35cb552edffecdc3bb9413f10485155edabe2\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\dd281eb98cf79d89bd7ce631fe583eab6dbfece9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_d9f35cb552edffecdc3bb9413f10485155edabe2.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_be01057a2ddbc902c950cc917b82dca76735196c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\5d5d87fa8579548bd49909a98837206bf7e2e7a5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a91e420b9d7a4e91bd057682495977a20ca9503\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\5d5d87fa8579548bd49909a98837206bf7e2e7a5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_3a91e420b9d7a4e91bd057682495977a20ca9503.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\6b43d2ea4a29a0b3a3f7df18696a0e23bf273c74\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_e0b651ecc595c0600ca8f01173596146073457a6.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3b41c0f4a173d52a047c1da3f66d537d7ccd28a8\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\6718e73620de544cce0e72c2ef0c46feee7d2373\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_7444b54fcc05af1500adfa367fc708fc73419142.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\c726a7e753633c8d17e314f9ffe11e5a5d1be29b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_622bb0d4fda4ded19369a30c01e26675e709f2af\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\f6d8033d4fcf2d715bf7c15cc39d943b85f3880b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_bfe451cf7b0d3acb2915433d334d564ae21d2ded.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\c726a7e753633c8d17e314f9ffe11e5a5d1be29b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_622bb0d4fda4ded19369a30c01e26675e709f2af.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\6010feeae6ae29288f46bd1cf74b63f63992a362\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ed51607682cbe64a0632a67504b3d15480ba2b1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b1a8f6b9dd19c14afa3aaff63b5d4651b17d0b59">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0109d977deab2d13ea65bab02c8af182d7a12232\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\f6d8033d4fcf2d715bf7c15cc39d943b85f3880b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfe451cf7b0d3acb2915433d334d564ae21d2ded\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\6b43d2ea4a29a0b3a3f7df18696a0e23bf273c74\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e0b651ecc595c0600ca8f01173596146073457a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\b5ead1c509744dcb90b26309f221283249cf5972\output\jars\classes.jar"
+        jar="C:\Users\Genaro\.android\build-cache\75e25f32fbc95f361ed4a3bb420a1e479e7cb4db\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_43be8466c47c7d028636fff86364aee735558d3f.jar" />
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_a86fc9d8a712b06861fdc2040ec0d86c0e1b0083.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\La501857\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jar="C:\Users\Genaro\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_758569cec4629c08fab464b48c49be0d211d53b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\059c30287952775abc15752566f62b38bf8dabca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_516d25b1b1b03c432fd3742d8d844cfc7212b9bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_ac3d3ca80d195b5be95a6fb3fca6e324749d98c2.jar" />
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_d9064688a9aa7f03dfe0e1b3875fd269f75444c0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\La501857\.android\build-cache\6010feeae6ae29288f46bd1cf74b63f63992a362\output\jars\classes.jar"
+        jar="C:\Users\Genaro\.android\build-cache\8a93122eed8d1ea3701a465d826fe1fb3eb3face\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_4ee7c253ec75f9f493b00d93088bcce1750502c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\9ec96e8baef1e79beee64ca6ef74e20dcf1c3449\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_3c18ce8f2c6ce4c6ec9244ff8b73663ae4d76470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\7e129b2354fc2f6b831745c6a4785145f52aaf3b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\git_repositories\Android Proyects\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_5ed51607682cbe64a0632a67504b3d15480ba2b1.jar" />
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_522a35de1593399296e74b89fa085ab514f53f34.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\La501857\.android\build-cache\6718e73620de544cce0e72c2ef0c46feee7d2373\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\e8b3898616e9d35ecb4813fa6f9672aca5e711c3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_287933ea431cbf841683e84176e450ffcc000d74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\1ef193d02204463d6b7902152e0b3ff1cd844e71\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_363ac256dea854f15df0f0f1794455fee3b10c34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\c9dc219093ad104d24c3a2469806db469f0cc7e7\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\La501857\AndroidStudioProjects\ToDo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7444b54fcc05af1500adfa367fc708fc73419142\classes.dex" />
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_515e8a57df67b159b171607d861ede7cf9872e87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\2e8753830827d27d7112a9ee7cfe60c84ccb75d7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_7689c37ea1b31f3867f6e4147bd77077eddbf322.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\bb172a9bdb20ce4ae202850947cf590c70f0476b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_80eee9e954aa09bc9fadd6fd7c971d23fd4592f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\cbe14a81df9fcb9ec64cfa03cfa99d0d27708967\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_38ddb2a92610a028025c2290306e27d0d009aeaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\002e4e063b1921cbe2338134e0fbc884836f0b3e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_37db7653c10bac43687a169e1895c0db924b24e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Genaro\.android\build-cache\cc7125bbb654a962d71b84feec85a6b1c922a1a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="G:\Git_Repos\Android\Diary_Incomes\app\build\intermediates\pre-dexed\debug\classes_aa329cd92810f3275fd9766180c12a12eee996e6.jar" />
     </item>
 
 </items>

@@ -16,6 +16,7 @@ import com.profuturo.todo.Tasks;
 
 import java.text.DateFormat;
 import java.util.Calendar;
+import java.util.TimeZone;
 
 /**
  * Created by LA501857 on 20/09/2017.
@@ -56,7 +57,8 @@ public class modTaskView extends AppCompatActivity implements DatePickerDialog.O
             TaskDescription.setText(values.getString(taskDescription));
             TaskId = values.getInt(taskId);
         }
-
+        myCalendar = Calendar.getInstance(TimeZone.getDefault());
+        format = new java.text.SimpleDateFormat("dd/MMM/yyyy");
     }
 
     @Override
